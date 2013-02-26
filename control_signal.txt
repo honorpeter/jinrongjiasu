@@ -1,0 +1,31 @@
+for n_type_control
+[`N_type_control_width-1  :  0]          N_type_control_m1   N_type_control_m2   N_type_control_m3
+
+N_type_L  N_type_M  N_type_N  N_type_R  N_type_S  N_type_defaut
+
+
+
+for message_mux_control
+[`message_mux_control_width-1  :  0]          message_mux_control_m1  message_mux_control_m2  message_mux_control_m3
+
+message_mux_control_a  message_mux_control_d  message_mux_control_k  message_mux_control_q  message_mux_control_N   message_mux_defaut
+
+
+
+for seq_number_control 
+[ `seq_number_control_width- 1 : 0 ]          seq_number_data  
+seq_number_add     seq_number_keep
+
+
+
+
+for message_number_control
+[ `message_number_control_width - 1 : 0 ]     message_number_control
+message_number_0   message_number_1   message_number_2   message_number_3
+
+
+
+
+for block
+[ `block_control_m_width - 1 : 0 ]    block_control_m1 , block_control_m2 , block_control_m3 
+block_control_m_35   block_control_m_22   block_control_m_21   block_control_m_12
